@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 
 function addElementToEndOfArray(array, element){
   newArray = array;
-  newArray = [element, ...newArray];
+  newArray.splice(-1,0,element);
   return newArray;
 }
 
