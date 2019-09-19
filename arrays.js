@@ -9,8 +9,14 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return newArray;
 }
 
-function addElementToEndOfArray(array, element){}
-function destructivelyAddElementToEndOfArray(array, element){}
+function addElementToEndOfArray(array, element){
+
+}
+
+function destructivelyAddElementToEndOfArray(array, element){
+
+}
+
 function accessElementInArray(array, index){
   return array[index];
 }
@@ -20,7 +26,18 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 
-function removeElementFromBeginningOfArray(array){}
-function destructivelyRemoveElementFromBeginningOfArray(array){}
-function destructivelyRemoveElementFromEndOfArray(array){}
-function removeElementFromEndOfArray(array){}
+function removeElementFromBeginningOfArray(array){
+
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+
+}
+
+function destructivelyRemoveElementFromEndOfArray(array){
+
+}
+
+function removeElementFromEndOfArray(array){
+
+}
